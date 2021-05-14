@@ -11,7 +11,7 @@ class Node
     @last_node = nil
   end
 
-  def to_s
+  def node_info
     puts '###########################'
     puts " value: #{@value}"
     puts " Created: #{@time}"
