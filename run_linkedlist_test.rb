@@ -56,3 +56,6 @@ puts " #{list.size} nodes left"
 puts ' Remove the 3rd node:'
 list.remove_at(3).node_info
 puts " #{list.size} nodes left"
+
+puts ''
+list.to_s

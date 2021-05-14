@@ -122,4 +122,17 @@ class LinkedList
     end
     puts '## Node Display Complete ##'
   end
+
+  def to_s
+    counter = 0
+    print ' Start'
+    current_node = @head
+    until counter == @size
+      print " -> (#{current_node.value}) "
+      current_node = current_node.next_node
+      counter += 1
+    end
+    print ' -> End'
+    puts ''
+  end
 end
